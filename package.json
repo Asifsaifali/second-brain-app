@@ -1,0 +1,23 @@
+{
+  "name": "brainly",
+  "version": "1.0.0",
+  "description": "A second brain full stack app ",
+  "license": "ISC",
+  "author": "Asif Hussain",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "nodemon dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0",
+    "typescript": "^5.9.2",
+    "zod": "^4.1.1"
+  }
+}
